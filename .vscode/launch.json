@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "video-processing-service",
+      "type": "node",
+      "request": "launch",
+      "runtimeArgs": ["-r", "ts-node/register"],
+      "args": ["${workspaceFolder}/video-processing-service/src/index.ts"],
+      "cwd": "${workspaceFolder}/video-processing-service",
+      "sourceMaps": true,
+      "restart": true,
+      "console": "integratedTerminal"
+    }
+  ]
+}
